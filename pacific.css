@@ -3,12 +3,70 @@ header, hgroup, nav, footer, figure, figcaption, aside, section, article {
 }
 body {
 	background-color: white;
+	background-image: url("ptrbackground.jpg");
+	background-repeat: repeat-x;
 	color: #666666;
+	background-color: #00569f;
 	font-family: Arial, Helvetica, sans-serif;
 }
+#wrapper{
+	background-color: white;
+	width: 80%;
+	min-width: 600px;
+	
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 0px;
+	margin-bottom: 100px;
+	height: 700px;
+	
+}
+#content ul{
+	list-style-image: url("marker.gif");
+	list-style-position: inside;
+	padding-left: 275px;
+	padding-right: 35px;
 
+}
+#content{
+	padding-bottom: 15%;
+}
+#content img {
+	float: left;
+	margin-right: 20px;
+}
+.resort {
+color: rgb(92 112 146);
+font-weight: bold;
+
+}
+p {
+padding-right: 35px;
+}
 nav ul {
 	font-size: 1.2em;
+	list-style-type: none;
+	float:left;
+	
+	background-color: rgb(141 198 228);
+	
+	padding-top: 25px;
+	
+	padding-right: 50px;
+	padding-left: 25px;
+	padding-bottom: 0%;
+	height: 618.65px;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 50px;
+}
+nav li a{
+	text-align: left;
+	color: #000032;
+}
+nav a:link{
+	text-decoration: none;
 }
 nav a:visited {
 	color: #344873;
@@ -23,7 +81,14 @@ h1 {
 h2 {
 	color: #3399CC;
 }
-h1,
+h1{
+	font-family: Georgia, "Times New Roman", serif;
+	background-image: url("sunset.jpg");
+	background-repeat: repeat-y;
+	background-position: right;
+	background-color: #000032;
+	color: white;
+}
 h2 {
 	font-family: Georgia, "Times New Roman", serif;
 }
