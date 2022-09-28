@@ -10,26 +10,24 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 #wrapper{
-	background-color: white;
+	background-color: rgb(141 198 228);
 	width: 80%;
 	min-width: 600px;
-	
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 0px;
 	margin-bottom: 100px;
-	height: 700px;
-	
+	padding-bottom: 0px;
+	padding-left: 0px;
 }
 #content ul{
 	list-style-image: url("marker.gif");
 	list-style-position: inside;
-	padding-left: 275px;
-	padding-right: 35px;
-
 }
 #content{
-	padding-bottom: 15%;
+	background-color: white;
+	margin-left: 190px;
+	padding-top: 10px;
+	padding-left: 30px;
 }
 #content img {
 	float: left;
@@ -38,28 +36,17 @@ body {
 .resort {
 color: rgb(92 112 146);
 font-weight: bold;
-
 }
 p {
 padding-right: 35px;
 }
+nav{
+	float:left;
+}
 nav ul {
 	font-size: 1.2em;
 	list-style-type: none;
-	float:left;
-	
-	background-color: rgb(141 198 228);
-	
-	padding-top: 25px;
-	
-	padding-right: 50px;
-	padding-left: 25px;
-	padding-bottom: 0%;
-	height: 618.65px;
-
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-right: 50px;
+	padding-left: 20px;
 }
 nav li a{
 	text-align: left;
@@ -67,9 +54,6 @@ nav li a{
 }
 nav a:link{
 	text-decoration: none;
-}
-nav a:visited {
-	color: #344873;
 }
 nav a:hover {
 	color: #FFFFFF;
@@ -100,5 +84,10 @@ dt {
 }
 footer {
 	font-family: Georgia, "Times New Roman", serif;
+	padding-bottom: 20px;
+	background-color: white;
+	margin-left: 190px;
+	padding-top: 50px;
+	padding-left: 15px;
 }
 
