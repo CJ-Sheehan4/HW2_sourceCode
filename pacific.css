@@ -1,93 +1,125 @@
+/*
+File: pacific.css
+GUI HW2: Creating a copy of the pictures provided using only css. In addition to that,
+implementing code that ensures that when the page is resized or zoomed in/out that
+it will be responsive. 
+Cornelius (C.J.) Sheehan, UMass Lowell Computer Science, cornelius_sheehan@student.uml.edu
+
+Copyright (c) 2022 by C.J. 
+All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated on September 27th, 2022 at 11:00pm
+*/
+
 header, hgroup, nav, footer, figure, figcaption, aside, section, article {
-	display: block;
+    display: block;
 }
+/*the body tag is the whole page and has an image as the background. 
+The image does not repeat and has the darkest color in the picture continue downward after the
+image ends to give the illusion that it continues*/
 body {
-	background-color: white;
-	background-image: url("ptrbackground.jpg");
-	background-repeat: repeat-x;
-	color: #666666;
-	background-color: #00569f;
-	font-family: Arial, Helvetica, sans-serif;
+    background-image: url("ptrbackground.jpg");
+    background-repeat: repeat-x;
+    color: #666666;
+    background-color: #00569f;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#wrapper{
-	background-color: rgb(141 198 228);
-	width: 80%;
-	min-width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 100px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+/*the wrapper is the div that holds all the main contents of the page. the whole background is the color of the
+nav bar. The white background you see is layered ontop of that. I ensure that the width is 80% to that page 
+and that the div is centered by using auto with both margins*/
+#wrapper {
+    background-color: rgb(141 198 228);
+    width: 80%;
+    min-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
-#content ul{
-	list-style-image: url("marker.gif");
-	list-style-position: inside;
+/*This is the unordered list in the main content of the div. I gave the bullet points the image provided
+and made sure that the text was inside. */
+#content ul {
+    list-style-image: url("marker.gif");
+    list-style-position: inside;
 }
-#content{
-	background-color: white;
-	margin-left: 190px;
-	padding-top: 10px;
-	padding-left: 30px;
+/*the content background is white and layered on top. */
+#content {
+    background-color: white;
+    margin-left: 190px;
+    padding-top: 10px;
+    padding-left: 30px;
 }
+/*this is mainly to make sure the image is in the right place. 
+By having to float left, it brings the text up next to it on the right*/
 #content img {
-	float: left;
-	margin-right: 20px;
+    float: left;
+    margin-right: 20px;
 }
+/*This gives the special style to the name of the resort*/
 .resort {
-color: rgb(92 112 146);
-font-weight: bold;
+    color: rgb(92 112 146);
+    font-weight: bold;
 }
+/*moving the paragraphs in place*/
 p {
-padding-right: 35px;
+    padding-right: 35px;
 }
-nav{
-	float:left;
+/*making sure that the whole nav bar floats to the left of the page*/
+nav {
+    float:left;
 }
 nav ul {
-	font-size: 1.2em;
-	list-style-type: none;
-	padding-left: 20px;
+    font-size: 1.2em;
+    list-style-type: none;
+    padding-left: 20px;
 }
-nav li a{
-	text-align: left;
-	color: #000032;
+nav li a {
+    text-align: left;
+    color: #000032;
 }
-nav a:link{
-	text-decoration: none;
+/*gets rid of the bullet points and unerline*/
+nav a:link {
+    text-decoration: none;
 }
+/*If you hover over a link it turns white*/
 nav a:hover {
-	color: #FFFFFF;
+    color: #FFFFFF;
 }
 h1 {
-	margin-bottom: 0;
-	padding: 10px;
+    margin-bottom: 0;
+    padding: 10px;
 }
 h2 {
-	color: #3399CC;
+    color: #3399CC;
 }
-h1{
-	font-family: Georgia, "Times New Roman", serif;
-	background-image: url("sunset.jpg");
-	background-repeat: repeat-y;
-	background-position: right;
-	background-color: #000032;
-	color: white;
+/*I used the same idea here as with the background of the div. I have the image positioned all the 
+way to the right, but then use the darkest color as the rest of the background to give the 
+illusion that in blends in as one. */
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    background-image: url("sunset.jpg");
+    background-repeat: repeat-y;
+    background-position: right;
+    background-color: #000032;
+    color: white;
 }
 h2 {
-	font-family: Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Times New Roman", serif;
 }
 #contact {
-	font-size: 90%;
+    font-size: 90%;
 }
 dt {
-	color: #000033;
+    color: #000033;
 }
+/*The footers padding is slightly off compared to the rest of the text according 
+to the pictures provided by the professor.*/
 footer {
-	font-family: Georgia, "Times New Roman", serif;
-	padding-bottom: 20px;
-	background-color: white;
-	margin-left: 190px;
-	padding-top: 50px;
-	padding-left: 15px;
+    font-family: Georgia, "Times New Roman", serif;
+    padding-bottom: 20px;
+    background-color: white;
+    margin-left: 190px;
+    padding-top: 50px;
+    padding-left: 15px;
 }
-
